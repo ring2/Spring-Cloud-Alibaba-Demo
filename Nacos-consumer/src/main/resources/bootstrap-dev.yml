@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.41.133:8848
+        namespace: 1a3a154e-fddc-4a67-b874-09bc98bce14a
+        group: TUTOR-BACK
+  application:
+    name: consumer-app

@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.41.133:8848
+        namespace: 1a3a154e-fddc-4a67-b874-09bc98bce14a
+        group: TUTOR-BACK
+server:
+  port: 8081
+people:
+  age: 10
+  name: 武汉加油

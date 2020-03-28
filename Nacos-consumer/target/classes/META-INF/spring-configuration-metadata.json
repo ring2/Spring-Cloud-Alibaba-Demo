@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "people",
+      "type": "nacos.config.User",
+      "sourceType": "nacos.config.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "people.age",
+      "type": "java.lang.Integer",
+      "sourceType": "nacos.config.User",
+      "defaultValue": 0
+    },
+    {
+      "name": "people.name",
+      "type": "java.lang.String",
+      "sourceType": "nacos.config.User"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.41.133:8848
+  profiles:
+    active: dev
+server:
+  port: 8081
+people:
+  age: 10
+  name: 张思1
